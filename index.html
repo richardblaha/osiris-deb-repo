@@ -1,0 +1,29 @@
+<!doctype html><meta charset=utf-8><title>OSIRIS APT repository</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>
+ :root{color-scheme:light dark}
+ body{font:15px/1.6 system-ui,sans-serif;max-width:44rem;margin:3rem auto;padding:0 1.2rem}
+ h1{font-size:1.4rem} code,pre{font-family:ui-monospace,monospace}
+ pre{background:#8881;padding:1rem;border-radius:4px;overflow-x:auto}
+ a{color:#0aa}
+</style>
+<h1>OSIRIS APT repository</h1>
+<p>Debian/Ubuntu packages for the <a href="https://richardblaha.github.io/osiris-theme/">OSIRIS desktop theme</a> —
+GTK/GNOME, KDE Plasma, the Material Symbols Rounded icon theme, the GRUB theme and the
+wallpapers. Packages are architecture-independent, so this works on any
+apt-based distribution.</p>
+<h2>Quick add</h2>
+<pre>curl -fsSL https://richardblaha.github.io/osiris-deb-repo/setup.sh | sudo sh</pre>
+<p>Or install <code>osiris-archive-keyring</code> from the
+<a href="https://github.com/richardblaha/osiris-theme/releases/latest">latest release</a>
+— it adds this repository and its key, so updates arrive via <code>apt upgrade</code>.</p>
+<h2>Manual</h2>
+<pre>curl -fsSL https://richardblaha.github.io/osiris-deb-repo/osiris-archive-keyring.gpg \
+  | sudo tee /usr/share/keyrings/osiris-archive-keyring.gpg &gt; /dev/null
+curl -fsSL https://richardblaha.github.io/osiris-deb-repo/osiris.sources \
+  | sudo tee /etc/apt/sources.list.d/osiris.sources &gt; /dev/null
+sudo apt update
+sudo apt install osiris-desktop-theme</pre>
+<p>Suite <code>stable</code>, component <code>main</code>. Key fingerprint
+is shown in <code>osiris-archive-keyring.asc</code>. Built from OSIRIS
+<code>0.2.0</code>.</p>

@@ -1,0 +1,39 @@
+Origin: OSIRIS
+Label: OSIRIS Theme
+Suite: stable
+Codename: stable
+Version: 0.2.0
+Date: Mon, 26 Oct 2026 19:25:01 +0000
+Architectures: amd64 arm64 all
+Components: main
+Description: OSIRIS desktop theme — GTK/GNOME, KDE Plasma, icons, GRUB, wallpapers
+MD5Sum:
+ 7464b6b2cacba514459fad6de15a0b5e             5872 main/binary-all/Packages
+ 5ba116bab3ba17c9048a31a988453352             2196 main/binary-all/Packages.gz
+ 5d56593f097cce68f4bf59cfe9e7d17c               99 main/binary-all/Release
+ 7464b6b2cacba514459fad6de15a0b5e             5872 main/binary-amd64/Packages
+ 5ba116bab3ba17c9048a31a988453352             2196 main/binary-amd64/Packages.gz
+ 33bef22c62fc6d0217ef4faf46e02bcb              101 main/binary-amd64/Release
+ 7464b6b2cacba514459fad6de15a0b5e             5872 main/binary-arm64/Packages
+ 5ba116bab3ba17c9048a31a988453352             2196 main/binary-arm64/Packages.gz
+ 8e1e17e33a212749dbc277eba6b799b4              101 main/binary-arm64/Release
+SHA1:
+ 7c2601ba55b92901a23c98caf063f6eb6645126d             5872 main/binary-all/Packages
+ 80d51707792eb2a4b9c0c0c01baeaea10283dc1d             2196 main/binary-all/Packages.gz
+ b692da88c1bbddfd9651afbdf8efaf2a6a4ffad6               99 main/binary-all/Release
+ 7c2601ba55b92901a23c98caf063f6eb6645126d             5872 main/binary-amd64/Packages
+ 80d51707792eb2a4b9c0c0c01baeaea10283dc1d             2196 main/binary-amd64/Packages.gz
+ cf799ee360c10509c2f38c4ce367e734c878d02a              101 main/binary-amd64/Release
+ 7c2601ba55b92901a23c98caf063f6eb6645126d             5872 main/binary-arm64/Packages
+ 80d51707792eb2a4b9c0c0c01baeaea10283dc1d             2196 main/binary-arm64/Packages.gz
+ 39e9a50bf4707d508bdb25628c7563a52df04840              101 main/binary-arm64/Release
+SHA256:
+ 920cbf4775cf394e7acb0c2fc144a20d3780d1113422773d303c45d6c6b75878             5872 main/binary-all/Packages
+ ef929f910442f09161ee2a7c9e08926e1c26b7986556bc202eaaab9e8a89c8e5             2196 main/binary-all/Packages.gz
+ b566d8abc6f0ff7acb63d34d8954b4d7bf32acccce253abd4ae0d29c50b44222               99 main/binary-all/Release
+ 920cbf4775cf394e7acb0c2fc144a20d3780d1113422773d303c45d6c6b75878             5872 main/binary-amd64/Packages
+ ef929f910442f09161ee2a7c9e08926e1c26b7986556bc202eaaab9e8a89c8e5             2196 main/binary-amd64/Packages.gz
+ 5941cfcd55ff4eb6c10ea09e497d570b0f0c788f0127230ef4682c7e55e0ee09              101 main/binary-amd64/Release
+ 920cbf4775cf394e7acb0c2fc144a20d3780d1113422773d303c45d6c6b75878             5872 main/binary-arm64/Packages
+ ef929f910442f09161ee2a7c9e08926e1c26b7986556bc202eaaab9e8a89c8e5             2196 main/binary-arm64/Packages.gz
+ 4b13aa57725bd6d36720d2ee18ac45045cfea0bd6e70a7f8d1efe385d91be802              101 main/binary-arm64/Release
