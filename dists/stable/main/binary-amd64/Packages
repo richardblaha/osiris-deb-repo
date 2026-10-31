@@ -36,6 +36,25 @@ Description: OSIRIS APT repository signing key and source
  https://richardblaha.github.io/osiris-deb-repo, so the OSIRIS packages are
  updated by apt like any other package.
 
+Package: osiris-archive-keyring
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 24
+Filename: pool/main/o/osiris-desktop-theme/osiris-archive-keyring_0.3.1-1_all.deb
+Size: 10428
+MD5sum: b82aef4e9fc8a4a9a9158dde24fe5339
+SHA1: 06047750028394a4a0a3dd5313b6229fc4d59ec1
+SHA256: 7b90541c1b0d292871d4488e368a440d08e1e49160be661e50a58f3dd31ffb46
+Section: misc
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS APT repository signing key and source
+ Installs the OSIRIS archive signing key and an APT source for
+ https://richardblaha.github.io/osiris-deb-repo, so the OSIRIS packages are
+ updated by apt like any other package.
+
 Package: osiris-desktop-theme
 Version: 0.2.0-1
 Architecture: all
@@ -71,6 +90,26 @@ Homepage: https://github.com/richardblaha/osiris-theme
 Description: OSIRIS desktop theme (metapackage)
  Pulls in every OSIRIS theme component: GTK/GNOME, KDE Plasma/Qt, the icon theme,
  the GRUB boot theme and the wallpapers.
+
+Package: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 17
+Depends: osiris-theme-gnome (= 0.3.1-1), osiris-theme-plasma (= 0.3.1-1), osiris-icon-theme (= 0.3.1-1), osiris-theme-grub (= 0.3.1-1), osiris-wallpapers (= 0.3.1-1)
+Filename: pool/main/o/osiris-desktop-theme/osiris-desktop-theme_0.3.1-1_all.deb
+Size: 10024
+MD5sum: d9672d802cd8b1b38eb47afa5000b893
+SHA1: 8a6533b3222565c0cc218a2c188b1daa81672bff
+SHA256: 728b34ea87591664424d735251c4bf7ca8472ba4209947880e9228c366fcec3a
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS desktop theme (metapackage)
+ Pulls in every OSIRIS theme component: GNOME/GTK, KDE Plasma/Qt, the icon theme,
+ the GRUB boot theme and the wallpapers. The Plasma component is pure data and
+ only Suggests the Kvantum Qt style, so this metapackage does not install Qt
+ on a GNOME-only system; for GNOME alone use osiris-theme-gnome.
 
 Package: osiris-icon-theme
 Source: osiris-desktop-theme
@@ -118,6 +157,53 @@ Description: OSIRIS Material Symbols Rounded icon theme
  Adwaita / Breeze / GNOME / hicolor for anything unstyled. Installed as
  /usr/share/icons/Osiris.
 
+Package: osiris-icon-theme
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 5204
+Depends: hicolor-icon-theme
+Recommends: adwaita-icon-theme
+Filename: pool/main/o/osiris-desktop-theme/osiris-icon-theme_0.3.1-1_all.deb
+Size: 86784
+MD5sum: 4f339aef67ce6f57b77299521ab1d392
+SHA1: a95b77d2bc789920dd7730d89951faac3c5b17ab
+SHA256: 09c7c567c6ef6a50cb1d24663953fabc6ba149bab2e4a3fc0d46eae586f7edfc
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS Material Symbols Rounded icon theme
+ Freedesktop icon theme in the Material Symbols Rounded 300 visual language — cyan/rose on a
+ GitHub-flavoured ramp. Covers actions, apps, categories, devices, emblems,
+ mimetypes, places and status, with GNOME↔KDE compatibility symlinks. Inherits
+ Adwaita / Breeze / GNOME / hicolor for anything unstyled. Installed as
+ /usr/share/icons/Osiris.
+
+Package: osiris-theme-gnome
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 263
+Recommends: gnome-shell-extension-prefs, osiris-icon-theme (= 0.3.1-1)
+Filename: pool/main/o/osiris-desktop-theme/osiris-theme-gnome_0.3.1-1_all.deb
+Size: 25700
+MD5sum: 3606128ca32f2db70f4b7e0b67b04a4f
+SHA1: f11a1f97e0387162ed45b41d1214371fc2ab9261
+SHA256: de91522421953634daad9323406e816bf2386dd53dd277b0ac762fb0fd96c293
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS dual-accent GNOME theme (GTK 3/4 + GNOME Shell + Metacity)
+ Cyan/rose colour theme for GTK 3, GTK 4 / libadwaita, GNOME Shell and Metacity
+ (Flashback/Marco), matching the OSIRIS design system (docs/DESIGN_SYSTEM.md).
+ Ships the "Osiris" (dark) and "Osiris-Light" theme variants, the
+ `osiris-gtk-theme` helper (also sets the Osiris icon theme), the GtkSourceView
+ syntax schemes, the "Osiris" Ptyxis terminal palette, and a GNOME Terminal
+ profile installer under /usr/share/osiris/gnome-terminal.
+ No Qt/KDE dependencies — safe to install on a pure GNOME desktop.
+
 Package: osiris-theme-grub
 Source: osiris-desktop-theme
 Version: 0.2.0-1
@@ -150,6 +236,26 @@ Size: 182776
 MD5sum: 4b19624a61992fec8bb15635f72ecde4
 SHA1: bbc0d1dcd2b40ef3f5e98dcbc04ff45221ce5899
 SHA256: a475056a4c8c67d82d9963a91d1b7830b18ad7ea17647e9901b89789c524f2c7
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS graphical GRUB2 boot theme
+ 1920x1080 boot menu in the OSIRIS visual language — Fira Code, cyan selection,
+ rose countdown bar, generated boot-menu icons. The post-install hook copies the
+ theme into /boot/grub, sets GRUB_THEME and regenerates grub.cfg.
+
+Package: osiris-theme-grub
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 436
+Depends: grub-common
+Filename: pool/main/o/osiris-desktop-theme/osiris-theme-grub_0.3.1-1_all.deb
+Size: 185140
+MD5sum: c1b9cec03590d3d3ea52a686162f1f0e
+SHA1: 79df936e61b5a63e264476f75d9635807c11698c
+SHA256: 54b43ce11513813afc11e369a15973bbaa71e3d7076ad85ea8273443975ca1cd
 Section: x11
 Priority: optional
 Homepage: https://github.com/richardblaha/osiris-theme
@@ -202,6 +308,26 @@ Description: OSIRIS dual-accent GTK 3/4 + GNOME Shell theme
  opt-in, the "Osiris" Ptyxis terminal palette, and a GNOME Terminal profile
  installer under /usr/share/osiris/gnome-terminal.
 
+Package: osiris-theme-gtk
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 17
+Depends: osiris-theme-gnome (= 0.3.1-1)
+Filename: pool/main/o/osiris-desktop-theme/osiris-theme-gtk_0.3.1-1_all.deb
+Size: 9952
+MD5sum: 20451ec1bec57a9201caf2b953fd77a9
+SHA1: 474e9814fb86b17f9b6fa6eea61e37ddcbbe562b
+SHA256: b83bcb5a416f67f5dfe99ef220c3665a9e35b20a4551f6f51c60108cb4a72dd5
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: transitional package for osiris-theme-gnome
+ The GTK/GNOME theme moved to its own package, osiris-theme-gnome, so a GNOME
+ desktop can be themed without pulling in the KDE/Qt bits. This empty package
+ exists only to keep `apt install osiris-theme-gtk` working.
+
 Package: osiris-theme-plasma
 Source: osiris-desktop-theme
 Version: 0.2.0-1
@@ -244,6 +370,27 @@ Description: OSIRIS dual-accent KDE Plasma / Qt theme
  "Osiris" Plasma desktop theme and the Konsole "Osiris Dark/Light" colour
  schemes.
 
+Package: osiris-theme-plasma
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 98
+Suggests: qt5-style-kvantum, qt6-style-kvantum
+Filename: pool/main/o/osiris-desktop-theme/osiris-theme-plasma_0.3.1-1_all.deb
+Size: 17376
+MD5sum: b445f8aee1d020fa9b2ac6b37faae33b
+SHA1: 06226c2b7524bdf2509ccffc7f76129e98b20b52
+SHA256: 7e501e82c42e2f275b24adef97a3eaa7a78b756b78076881b8770b955370c13c
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS dual-accent KDE Plasma / Qt theme
+ Plasma colour schemes (Osiris / Osiris Light), Kvantum Qt themes
+ (OsirisDark / OsirisLight), the OsirisDark Aurorae window decoration, the
+ "Osiris" Plasma desktop theme and the Konsole "Osiris Dark/Light" colour
+ schemes.
+
 Package: osiris-wallpapers
 Source: osiris-desktop-theme
 Version: 0.2.0-1
@@ -274,6 +421,25 @@ Size: 6407324
 MD5sum: 5f418663e90f9788fd407335ec149830
 SHA1: 8dd285c952246344fb3a9b74d70cb2c9647edb92
 SHA256: 91a490ba7e1d9000ccf1f1b21fd1d59e576bcee69945fe07c15385c8534d201d
+Section: x11
+Priority: optional
+Homepage: https://github.com/richardblaha/osiris-theme
+Description: OSIRIS wallpapers (Abstract Bloom + Ancient Egypt Sci-Fi)
+ Fixed Day/Night renders at 4 resolutions plus GNOME time-of-day dynamic XML and
+ KDE Plasma light/dark wallpaper packages. Installed under
+ /usr/share/backgrounds/osiris.
+
+Package: osiris-wallpapers
+Source: osiris-desktop-theme
+Version: 0.3.1-1
+Architecture: all
+Maintainer: Richard Bláha <richardblaha@gmail.com>
+Installed-Size: 12760
+Filename: pool/main/o/osiris-desktop-theme/osiris-wallpapers_0.3.1-1_all.deb
+Size: 6407772
+MD5sum: c26bdab946e96ce0664d390b3468058d
+SHA1: 449fd72eabb76c284a348fe9c6b670823e643fff
+SHA256: 1df0a9b907c0b195a4191d4ea6a622079df69824096ff09a84a4e1823e2d658a
 Section: x11
 Priority: optional
 Homepage: https://github.com/richardblaha/osiris-theme

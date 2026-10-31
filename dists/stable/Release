@@ -2,38 +2,38 @@ Origin: OSIRIS
 Label: OSIRIS Theme
 Suite: stable
 Codename: stable
-Version: 0.3.0
-Date: Sat, 31 Oct 2026 19:36:02 +0000
+Version: 0.3.1
+Date: Sat, 31 Oct 2026 20:08:25 +0000
 Architectures: amd64 arm64 all
 Components: main
 Description: OSIRIS desktop theme — GTK/GNOME, KDE Plasma, icons, GRUB, wallpapers
 MD5Sum:
- f4db2df2a6d30f26090c7a84eba99d6b            11744 main/binary-all/Packages
- 8e83e6a976f498514157b6c88e97f9f0             3008 main/binary-all/Packages.gz
+ 0570adcc1480337a9ef6884d615375dc            18803 main/binary-all/Packages
+ ad1da26f09a4b4b19fee29989ad81445             4294 main/binary-all/Packages.gz
  5d56593f097cce68f4bf59cfe9e7d17c               99 main/binary-all/Release
- f4db2df2a6d30f26090c7a84eba99d6b            11744 main/binary-amd64/Packages
- 8e83e6a976f498514157b6c88e97f9f0             3008 main/binary-amd64/Packages.gz
+ 0570adcc1480337a9ef6884d615375dc            18803 main/binary-amd64/Packages
+ ad1da26f09a4b4b19fee29989ad81445             4294 main/binary-amd64/Packages.gz
  33bef22c62fc6d0217ef4faf46e02bcb              101 main/binary-amd64/Release
- f4db2df2a6d30f26090c7a84eba99d6b            11744 main/binary-arm64/Packages
- 8e83e6a976f498514157b6c88e97f9f0             3008 main/binary-arm64/Packages.gz
+ 0570adcc1480337a9ef6884d615375dc            18803 main/binary-arm64/Packages
+ ad1da26f09a4b4b19fee29989ad81445             4294 main/binary-arm64/Packages.gz
  8e1e17e33a212749dbc277eba6b799b4              101 main/binary-arm64/Release
 SHA1:
- 9d6a5dfb61b398a140462923350ec211c7673155            11744 main/binary-all/Packages
- 65f4482801e1904435448aa7f3ad1d37f944a763             3008 main/binary-all/Packages.gz
+ 8ac398bd2c1f72bf8f8d3ece65bf38090584b2a5            18803 main/binary-all/Packages
+ f315a82b68e20e11c1207d08889c44e1a88baefb             4294 main/binary-all/Packages.gz
  b692da88c1bbddfd9651afbdf8efaf2a6a4ffad6               99 main/binary-all/Release
- 9d6a5dfb61b398a140462923350ec211c7673155            11744 main/binary-amd64/Packages
- 65f4482801e1904435448aa7f3ad1d37f944a763             3008 main/binary-amd64/Packages.gz
+ 8ac398bd2c1f72bf8f8d3ece65bf38090584b2a5            18803 main/binary-amd64/Packages
+ f315a82b68e20e11c1207d08889c44e1a88baefb             4294 main/binary-amd64/Packages.gz
  cf799ee360c10509c2f38c4ce367e734c878d02a              101 main/binary-amd64/Release
- 9d6a5dfb61b398a140462923350ec211c7673155            11744 main/binary-arm64/Packages
- 65f4482801e1904435448aa7f3ad1d37f944a763             3008 main/binary-arm64/Packages.gz
+ 8ac398bd2c1f72bf8f8d3ece65bf38090584b2a5            18803 main/binary-arm64/Packages
+ f315a82b68e20e11c1207d08889c44e1a88baefb             4294 main/binary-arm64/Packages.gz
  39e9a50bf4707d508bdb25628c7563a52df04840              101 main/binary-arm64/Release
 SHA256:
- e2f0d21f8388f88ad9922d3de7126d57566b375a216ec44b69d979b672a86fc1            11744 main/binary-all/Packages
- 156aaa8e3f7107577400fb39930b3bfc7c344520ddb0019b5071f45ac8ac258c             3008 main/binary-all/Packages.gz
+ 39d4e9e4079744b712e143419081bed884d6892438d27bd5a9b030df812db15f            18803 main/binary-all/Packages
+ 51b2a9ae7a08bcefa8277af6ccce58f7e28e2526f8e5d77692e3efadbb8bde6a             4294 main/binary-all/Packages.gz
  b566d8abc6f0ff7acb63d34d8954b4d7bf32acccce253abd4ae0d29c50b44222               99 main/binary-all/Release
- e2f0d21f8388f88ad9922d3de7126d57566b375a216ec44b69d979b672a86fc1            11744 main/binary-amd64/Packages
- 156aaa8e3f7107577400fb39930b3bfc7c344520ddb0019b5071f45ac8ac258c             3008 main/binary-amd64/Packages.gz
+ 39d4e9e4079744b712e143419081bed884d6892438d27bd5a9b030df812db15f            18803 main/binary-amd64/Packages
+ 51b2a9ae7a08bcefa8277af6ccce58f7e28e2526f8e5d77692e3efadbb8bde6a             4294 main/binary-amd64/Packages.gz
  5941cfcd55ff4eb6c10ea09e497d570b0f0c788f0127230ef4682c7e55e0ee09              101 main/binary-amd64/Release
- e2f0d21f8388f88ad9922d3de7126d57566b375a216ec44b69d979b672a86fc1            11744 main/binary-arm64/Packages
- 156aaa8e3f7107577400fb39930b3bfc7c344520ddb0019b5071f45ac8ac258c             3008 main/binary-arm64/Packages.gz
+ 39d4e9e4079744b712e143419081bed884d6892438d27bd5a9b030df812db15f            18803 main/binary-arm64/Packages
+ 51b2a9ae7a08bcefa8277af6ccce58f7e28e2526f8e5d77692e3efadbb8bde6a             4294 main/binary-arm64/Packages.gz
  4b13aa57725bd6d36720d2ee18ac45045cfea0bd6e70a7f8d1efe385d91be802              101 main/binary-arm64/Release
