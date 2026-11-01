@@ -5,45 +5,45 @@ Origin: OSIRIS
 Label: OSIRIS Theme
 Suite: stable
 Codename: stable
-Version: 0.4.0
-Date: Sat, 31 Oct 2026 22:24:47 +0000
+Version: 0.4.1
+Date: Sun, 01 Nov 2026 09:39:34 +0000
 Architectures: amd64 arm64 all
 Components: main
 Description: OSIRIS desktop theme — GTK/GNOME, KDE Plasma, icons, GRUB, wallpapers
 MD5Sum:
- 6eb260c0ad8680214a9e8942058c869b            25890 main/binary-all/Packages
- ccc1e47bc1356061c6f60e3d9a3e27ee             5330 main/binary-all/Packages.gz
+ a3d95b9e66763bfa8d81457918af58de            32977 main/binary-all/Packages
+ 7d7ab15f8cabf9454fd4665cc393dd0f             6221 main/binary-all/Packages.gz
  5d56593f097cce68f4bf59cfe9e7d17c               99 main/binary-all/Release
- 6eb260c0ad8680214a9e8942058c869b            25890 main/binary-amd64/Packages
- ccc1e47bc1356061c6f60e3d9a3e27ee             5330 main/binary-amd64/Packages.gz
+ a3d95b9e66763bfa8d81457918af58de            32977 main/binary-amd64/Packages
+ 7d7ab15f8cabf9454fd4665cc393dd0f             6221 main/binary-amd64/Packages.gz
  33bef22c62fc6d0217ef4faf46e02bcb              101 main/binary-amd64/Release
- 6eb260c0ad8680214a9e8942058c869b            25890 main/binary-arm64/Packages
- ccc1e47bc1356061c6f60e3d9a3e27ee             5330 main/binary-arm64/Packages.gz
+ a3d95b9e66763bfa8d81457918af58de            32977 main/binary-arm64/Packages
+ 7d7ab15f8cabf9454fd4665cc393dd0f             6221 main/binary-arm64/Packages.gz
  8e1e17e33a212749dbc277eba6b799b4              101 main/binary-arm64/Release
 SHA1:
- c825d18efc1ead0584adf4bd5b4c576455a49487            25890 main/binary-all/Packages
- 6a00dda3d42bd41e73811dc191dfb9fb3eba826b             5330 main/binary-all/Packages.gz
+ 95cbd1ea0dfcabd77271939c6a54ec45ab447190            32977 main/binary-all/Packages
+ 62b58be24dcadcf7394ad464c7982b914df1aaed             6221 main/binary-all/Packages.gz
  b692da88c1bbddfd9651afbdf8efaf2a6a4ffad6               99 main/binary-all/Release
- c825d18efc1ead0584adf4bd5b4c576455a49487            25890 main/binary-amd64/Packages
- 6a00dda3d42bd41e73811dc191dfb9fb3eba826b             5330 main/binary-amd64/Packages.gz
+ 95cbd1ea0dfcabd77271939c6a54ec45ab447190            32977 main/binary-amd64/Packages
+ 62b58be24dcadcf7394ad464c7982b914df1aaed             6221 main/binary-amd64/Packages.gz
  cf799ee360c10509c2f38c4ce367e734c878d02a              101 main/binary-amd64/Release
- c825d18efc1ead0584adf4bd5b4c576455a49487            25890 main/binary-arm64/Packages
- 6a00dda3d42bd41e73811dc191dfb9fb3eba826b             5330 main/binary-arm64/Packages.gz
+ 95cbd1ea0dfcabd77271939c6a54ec45ab447190            32977 main/binary-arm64/Packages
+ 62b58be24dcadcf7394ad464c7982b914df1aaed             6221 main/binary-arm64/Packages.gz
  39e9a50bf4707d508bdb25628c7563a52df04840              101 main/binary-arm64/Release
 SHA256:
- 1da9b8c6ccd99abad0803260aaf1c21c8bc27e819ac6abe6f0000053028348a1            25890 main/binary-all/Packages
- 28c9a9e6cb53e80fd7ddcbe80da411e9eba7cfe129ab0760dc291f997997c119             5330 main/binary-all/Packages.gz
+ e6c03ce6b99fd83462518a56e594d46b729a462c6806271d7af7c7c2cc3ad64f            32977 main/binary-all/Packages
+ e065b27265c1daaa682f568600245fb4c1a4babd6d0a7ac399125c7b04385087             6221 main/binary-all/Packages.gz
  b566d8abc6f0ff7acb63d34d8954b4d7bf32acccce253abd4ae0d29c50b44222               99 main/binary-all/Release
- 1da9b8c6ccd99abad0803260aaf1c21c8bc27e819ac6abe6f0000053028348a1            25890 main/binary-amd64/Packages
- 28c9a9e6cb53e80fd7ddcbe80da411e9eba7cfe129ab0760dc291f997997c119             5330 main/binary-amd64/Packages.gz
+ e6c03ce6b99fd83462518a56e594d46b729a462c6806271d7af7c7c2cc3ad64f            32977 main/binary-amd64/Packages
+ e065b27265c1daaa682f568600245fb4c1a4babd6d0a7ac399125c7b04385087             6221 main/binary-amd64/Packages.gz
  5941cfcd55ff4eb6c10ea09e497d570b0f0c788f0127230ef4682c7e55e0ee09              101 main/binary-amd64/Release
- 1da9b8c6ccd99abad0803260aaf1c21c8bc27e819ac6abe6f0000053028348a1            25890 main/binary-arm64/Packages
- 28c9a9e6cb53e80fd7ddcbe80da411e9eba7cfe129ab0760dc291f997997c119             5330 main/binary-arm64/Packages.gz
+ e6c03ce6b99fd83462518a56e594d46b729a462c6806271d7af7c7c2cc3ad64f            32977 main/binary-arm64/Packages
+ e065b27265c1daaa682f568600245fb4c1a4babd6d0a7ac399125c7b04385087             6221 main/binary-arm64/Packages.gz
  4b13aa57725bd6d36720d2ee18ac45045cfea0bd6e70a7f8d1efe385d91be802              101 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSia/0I9qKtOvrK3D0+1xTE0MbmzgUCauZqrwAKCRA+1xTE0Mbm
-zkAiAQC/jyeHs76aFlJ9tUBEpjcwRg+1fB3OUdDzvzmHQVCJqQEAn6LipQal+tCk
-FgT6yPs38rCUbEFjXvhL1XcTjvWJDQc=
-=iUhe
+iHUEARYKAB0WIQSia/0I9qKtOvrK3D0+1xTE0MbmzgUCaucI1gAKCRA+1xTE0Mbm
+zu83APsFtzHcaFPAdFBLBA0N8WgNICt9YBQMLkr8hPQK2DFzlwEAgNuBhB3KKDoj
+sEIfOMZPFws3hn1m1anG0NXyKJidQQE=
+=a/Ts
 -----END PGP SIGNATURE-----
